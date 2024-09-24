@@ -1,12 +1,16 @@
 import './App.css'
-import SimpleForm from './Form-control/SimpleForm'
+import RefForm from './Form-control/RefForm'
+// import StateUsedForm from './Form-control/StateUsedForm'
+// import SimpleForm from './Form-control/SimpleForm'
 
 function App() {
 
   return (
     <>
       <h1>Now it&apos;s time to take</h1>
-      <SimpleForm></SimpleForm>
+      {/* <SimpleForm></SimpleForm> */}
+      {/* <StateUsedForm></StateUsedForm> */}
+      <RefForm></RefForm>
       
     </>
   )
